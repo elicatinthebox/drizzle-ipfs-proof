@@ -1,0 +1,52 @@
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x963d52822c396f2cffe1222e89f7f99d18105cdb19a6c2040e0f4e6c0546a7de
+   > Blocks: 1            Seconds: 8
+   > contract address:    0xb936632a90AC9FC351E88ccA6b2Cea5de957CFCd
+   > block number:        4819007
+   > block timestamp:     1564415033
+   > account:             0x4794DBf897D6232531B17eeC6c210634f85B1ad9
+   > balance:             18.74738607
+   > gas used:            261393
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00261393 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00261393 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'InterplanetaryStorage'
+   ---------------------------------
+   > transaction hash:    0x691c58f7db81e080a6e8740d52aae32adae33c888a391d2ba297f5b5982b9ef9
+   > Blocks: 0            Seconds: 12
+   > contract address:    0xb3294a622ed39f3718753f0b8a7487C41E189e8b
+   > block number:        4819009
+   > block timestamp:     1564415063
+   > account:             0x4794DBf897D6232531B17eeC6c210634f85B1ad9
+   > balance:             18.72658978
+   > gas used:            2037606
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02037606 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02037606 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.02298999 ETH
