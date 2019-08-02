@@ -1,3 +1,7 @@
+Contracts were deployed to:
+* Migrations: 0xb936632a90AC9FC351E88ccA6b2Cea5de957CFCd
+* InterplanetaryStorage: 0xb3294a622ed39f3718753f0b8a7487C41E189e8b
+
 1_initial_migration.js
 ======================
 
