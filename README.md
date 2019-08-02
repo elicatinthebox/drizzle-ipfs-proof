@@ -1,4 +1,4 @@
-# Proof-Of-Existance Dapp
+# Proof-Of-Existence Dapp
 
 ## Overview
 Combining IPFS and Ethereum allows us to verify the existence of a file. IPFS provides us an hash, Ethereum due to its immutability stores the files' hashes and timestamps useful for verification about the files. the authenticity.
