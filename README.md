@@ -7,6 +7,8 @@ Combining IPFS and Ethereum allows us to verify the existence of a file. IPFS pr
 ## Rinkeby Deploy
 [Link to my smart contract on rinkeby](https://etherscan.io/address/0xb3294a622ed39f3718753f0b8a7487C41E189e8b)
 
+The address on rinkeby is: 0xb3294a622ed39f3718753f0b8a7487C41E189e8b
+
 ### Requirements
 
 What things you need to install the software and how to install them
