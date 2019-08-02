@@ -33,7 +33,8 @@ contract InterplanetaryStorage is Ownable, Pausable {
   }
 
   /**
-  * @dev Set maximum file limit
+  * @notice Set maximum file limit
+  * @dev contract owner set fileLimit
   * @param _fileLimit maximum file limit
   * @return new file limit
   */
@@ -47,7 +48,8 @@ contract InterplanetaryStorage is Ownable, Pausable {
   }
 
   /**
-  * @dev contract owner get file limit
+  * @notice only contract owner get file limit
+  * @dev only contract owner get fileLimit
   * @return file limit
   */
   function getFileLimit()
@@ -57,7 +59,8 @@ contract InterplanetaryStorage is Ownable, Pausable {
   }
 
   /**
-  * @dev user get file count
+  * @notice user get file count
+  * @dev user get userFilesCount by msg.sender address 
   * @return file count
   */
   function getYourFileCount()
@@ -66,7 +69,8 @@ contract InterplanetaryStorage is Ownable, Pausable {
   }
 
   /**
-  * @dev contract owner get any user file count
+  * @notice contract owner get any user file count
+  * @dev contract owner get _userAddress using userFilesCount mapping
   * @param _userAddress the user address
   * @return user files count
   */
@@ -88,7 +92,8 @@ contract InterplanetaryStorage is Ownable, Pausable {
   }
 
   /**
-  * @dev Insert a file
+  * @notice Insert a new file
+  * @dev add new ipfsDataStruct element
   * @param _ipfsName Name of the file
   * @param _ipfsHash Hash of IPFS file
   * @param _ipfsTags ipfsTags string
@@ -122,7 +127,8 @@ contract InterplanetaryStorage is Ownable, Pausable {
 
 
   /**
-  * @dev Get a file
+  * @notice Get a new file
+  * @dev Get ipfsDataStruct info using _index
   * @return ipfsName, ipfsHash, ipfsTags, ipfsDate
   */
   function getFile(uint _index) public view returns (string memory, string memory, string memory, uint) {
@@ -137,7 +143,8 @@ contract InterplanetaryStorage is Ownable, Pausable {
   }
 
   /**
-  * @dev Get a file indexes
+  * @notice Get user stored files indexes
+  * @dev Get a addressToFiles indexes by msg.sender address 
   * @return an array of uint indexes
   */
   function getFileIndexes() public view returns (uint[] memory) {
